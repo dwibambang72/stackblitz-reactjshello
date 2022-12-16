@@ -1,11 +1,10 @@
-import React from "react";
-import "./style.css";
+import "./styles.css";
+import { ReactComponent as TextSVG } from "./assets/undraw_text.svg";
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen </p>
+    <div className="App">
+      <TextSVG />
     </div>
   );
 }
